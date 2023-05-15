@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="icon.jpeg">
+</head>
+<body>
+ 
+   
+     <div  class="calculator">
+        <input type="text"  id="inputi" placeholder="0" >
+        <div >
+            <button class="green" id="clear" onclick="refresh()">AC</button>
+            <button class="green" onclick="del()"> Del</button>
+            <button  class="green" onclick="adding(15)">%</button>
+            <button class="green" onclick="adding(11)">/</button>
+        </div>
+        <div >
+            <button onclick="adding(7)">7</button>
+            <button onclick="adding(8)">8</button>
+            <button onclick="adding(9)">9</button>
+            <button class="green" onclick="adding(12)">*</button>
+        </div>
+        <div >
+            <button onclick="adding(4)">4</button>
+            <button onclick="adding(5)">5</button>
+            <button onclick="adding(6)">6</button>
+            <button  class="green" onclick="adding(13)">-</button>
+        </div>
+        <div >
+            <button onclick="adding(1)">1</button>
+            <button onclick="adding(2)">2</button>
+            <button onclick="adding(3)">3</button>
+            <button  class="green" onclick="adding(14)">+</button>
+        </div>
+        <div >
+            <button onclick="adding(17)">00</button>
+            <button onclick="adding(0)">0</button>
+            <button onclick="adding(16)">.</button>
+            <button  class="yellow" onclick="calculate()">=</button>
+        </div>
+     </div>
+ 
+    
+     <script src="script.js"></script>
+</body>
+</html>
